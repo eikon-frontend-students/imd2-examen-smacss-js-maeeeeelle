@@ -1,0 +1,20 @@
+.l-header {
+  background: var(--dark-blue, #005564);
+  color: white;
+  display: flex;
+  width: 1400px;
+  height: 120px;
+  padding: 0px 52px 0px 53px;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  margin-bottom: 20px;
+  transition: background-color 0.5s ease, color 0.5s ease;
+}
+
+.l-footer {
+  background: var(--light-blue, #c0d9d9);
+  width: 1400px;
+  height: 325px;
+  flex-shrink: 0;
+}
